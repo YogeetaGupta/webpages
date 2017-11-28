@@ -1,0 +1,185 @@
+div.container{
+    background:linear-gradient(white,black);
+}
+div.container div.head{
+    height: 50px;
+    width:100%;
+    position:relative;
+    background:  linear-gradient(black,grey);
+}
+div.container div.head div.logo{
+    position: absolute;
+    height: 40px;
+    width:400px;
+    top:0px;
+    left:0px;
+    padding-left: 150px;
+}
+div.container div.head div.menu{
+    position: absolute;
+    height: 40px;
+    width:800px;
+    top:0px;
+    right: 0px;
+}
+div.container div.head div.menu ul li{
+    float: left;
+    list-style-type: none;
+    position: relative;
+}
+div.container div.head div.menu ul li a{
+    text-decoration: none;
+    color:white;
+    display:block;
+    height: 25px;
+    width:100px;
+    text-align: center;
+    line-height: 25px;
+}
+div.container div.add{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(grey,white);
+}
+div.container div.add span.image img{
+    height:"250px";
+     width:"300px";
+     position: absolute;
+     top:25px;
+     left: 100px;
+}
+div.container div.add span.info{
+    position: absolute;
+    top:70px;
+    left: 650px;
+}
+div.container div.add span.info button{
+    height: 50px;
+    width:150px;
+    text-align: center;
+    border-radius: 10px;
+    border: 0px;
+    background-color: gold;
+}
+div.container div.imgslider{
+    height: 950px;
+    width: 100%;
+    background: linear-gradient(grey,white);
+    position: relative;
+}
+div.container div.imgslider ul li{
+    list-style-type:none;
+    float:left;
+    height: 450px;
+    width:310px;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+div.container div.imgslider ul li span{
+    height: 450px;
+    width:310px;
+    position: absolute;
+    display: block;
+    top:-2px;
+    left: 0px;
+    background-color: grey;
+    opacity: 0.5;
+    transition-property: all;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+div.container div.imgslider ul li:hover span{
+    display:none;
+}
+div.container div.more{
+    position: relative;
+}
+div.container div.more button a{
+    height: 30px;
+    width: 95%;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: -20px;
+    background:linear-gradient(white,grey);
+    font-size: 20px;
+    border-radius: 10px;
+    display: block;
+    text-decoration: none;
+    line-height: 30px;
+    color: black;
+}
+div.container div.more button:hover a{
+    border:2px ridge black;
+}
+div.container div.foot {
+    position: relative;
+    top:15px;
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: goldenrod;
+}
+div.container div.foot span.fimg{
+    position: absolute;
+}
+div.container div.foot span.form{
+    position: absolute;
+    left:600px;
+    margin-top: 20px;
+}
+div.container div.foot span.form input{
+    height: 50px;
+    width: 300px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px
+}
+div.container div.foot span.form button{
+    height: 30px;
+    width: 150px;
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background:linear-gradient(lightblue,grey);
+}
+div.container div.foot span.form button a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    display: block;
+}
+div.container div.foot span.form p a{
+    text-decoration: none;
+    margin-left: 60px;
+    color: black;
+    text-align: center;
+}
+div.container div.foot span.img1{
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+}
+div.container div.gif{
+    position: relative;
+    left:930px;
+    top:20px;
+}
+div.container div.gif img{
+    border-radius: 10px;
+}
+div.container span.owner{
+    position: relative;
+    height: 20px;
+    width: 40px;
+    boeder:1px solid red;
+}
+div.container span.owner p{
+    position: absolute;
+    color:wheat;
+    top:1000px;
+    left: 100px;
+}
